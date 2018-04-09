@@ -20,7 +20,7 @@ class CreatePdfsTable extends Migration
             $table->string('adress');
             $table->boolean('core')->default(true);
             $table->integer('type')->default(1);
-            $table->timestamps();
+            $table->timestamps(); 
         });
     }
 
