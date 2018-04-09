@@ -1,0 +1,7 @@
+.video-js .vjs-poster {
+	background-size: cover;
+}
+
+.video-js.vjs-ended .vjs-poster {
+  display: block;
+}

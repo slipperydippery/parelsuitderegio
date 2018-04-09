@@ -1,0 +1,41 @@
+h4 {
+	font-size: 1.7rem;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.parel_ttl {
+    color: #a0ce99;
+	font-size: 36px;
+	font-family: 'Doppio One', Arial;
+	font-weight: normal;
+	line-height: 44px;
+}
+
+.singlepearl h2 {
+	margin-top: 0;
+}
+
+.voiontitle {
+	margin: 0 30px 0 0;
+	font-size: 36px;
+	font-family: 'Doppio One', Arial;
+	font-weight: normal;
+	line-height: 44px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.introtext ul {
+	// list-style: inherit !important;
+	list-style: disc inside;
+	padding: 0 0 0 1rem;
+	margin: 1rem 0;
+	li {
+		list-style: disc inside;
+	}
+}

@@ -1,0 +1,41 @@
+@media (max-width: 992px) {
+	#MainNav, #utils, #breadcrumbs {
+		display: none; 
+	}
+	#hamburger {
+		display: inline-block; 
+	}
+	.container #header {
+		height: 74px;
+	}
+	#headerimage {
+		height: auto;
+		margin: 0 0 20px 0; 
+	}
+	#headerimage img {
+		min-height: 0; 
+	}
+}
+
+@media (max-width: 767px) {
+	.hideonmobile {
+		display: none; 
+	}
+	.showonmobile {
+		display: inline-block; 
+	}
+	#logo {
+		display: none; 
+	}
+	#logolink {
+		background: url(/img/voion-logo-mobile.gif) 0 0 no-repeat;
+		background-size: contain;
+		width: 100px;
+		height: 53px;
+		display: inline-block;
+		margin-top: 10px; 
+	}
+	.container #header {
+		height: 74px; 
+	}
+}

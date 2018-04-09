@@ -1,0 +1,116 @@
+#header {
+    height: 102px;
+}
+
+#hamburger {
+    display: none;
+    height: 27px;
+    right: 15px;
+    margin: 0;
+    position: absolute;
+    top: 6px;
+    width: 70px;
+    z-index: 2;
+}
+
+#hamburger em {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    color: #666666;
+    font-size: 12px;
+}
+
+#zoek {
+    position: absolute;
+    right: 15px;
+    top: 37px;
+    text-decoration: none;
+    color: #666666;
+    display: none;
+}
+
+#zoek em {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    position: absolute;
+    right: 35px;
+    top: 2px;
+}
+
+#zoek span {
+    font-size: 25px;
+    color: #d1174d;
+    margin-left: 10px;
+}
+
+#utils {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+#utils ul {
+    margin: 0;
+    padding: 0;
+}
+
+#utils ul li {
+    float: left;
+}
+
+#utils ul li a {
+    text-decoration: none;
+    color: #666666;
+    border-right: 1px dotted #666666;
+    font-family: Verdana;
+    font-size: 11px;
+    padding: 0 15px 0 15px;
+}
+
+#MainNav {
+    clear: both;
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 50px 0 0 0;
+    position: relative;
+    z-index: 10;
+}
+
+#MainNav ul {
+    margin: 0;
+    padding: 0;
+    background: pink;
+}
+
+#MainNav ul li {
+    float: left;
+    padding: 0 0 0 30px;
+    font-size: 14px;
+    color: #d1174d;
+    font-family: 'Karla', Arial;
+}
+
+#MainNav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0 0 8px 0;
+    font-size: 16px;
+    color: #d1174d;
+    font-family: 'Karla', Arial;
+    text-transform: lowercase;
+}
+
+#MainNav li ul {
+    position: absolute;
+    background: #d1174d;
+    width: 220px;
+    padding: 8px 8px 0 8px;
+    left: -999em;
+}

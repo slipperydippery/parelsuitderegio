@@ -1,0 +1,132 @@
+.pearls .btn, .pearllistbuttons .btn {
+	display: inline-block;
+	cursor: pointer;
+	border: 0;
+	color: #fff;
+	font-family: 'Karla', Arial;
+	text-decoration: none;
+	padding: 8px;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: normal;
+	border: 2px solid rgba(255,255,266,0);
+	border-radius: 0;
+	float: left;
+}
+
+.pearls .category-1, .pearllistbuttons .category-11 {
+	background: $color11;
+}
+.pearls .category-2, .pearllistbuttons .category-12 {
+	background: $color12;
+}
+.pearls .category-3, .pearllistbuttons .category-13 {
+	background: $color13;
+}
+
+.pearls .category-1.nonactive, .pearllistbuttons .category-11.nonactive {
+	background: $color11;
+}
+.pearls .category-2.nonactive, .pearllistbuttons .category-12.nonactive {
+	background: $color12;
+}
+.pearls .category-3.nonactive, .pearllistbuttons .category-13.nonactive {
+	background: $color13;
+}
+
+.pearls .category-1.active, .pearllistbuttons .category-1.active {
+	background: none;
+	border: 2px solid $color1;
+	color: $color1;
+	box-shadow: none;
+}
+
+.pearls .category-2.active, .pearllistbuttons .category-2.active {
+	background: none;
+	border: 2px solid $color2;
+	color: $color2;
+	box-shadow: none;
+}
+
+.pearls .category-3.active, .pearllistbuttons .category-3.active {
+	background: none;
+	border: 2px solid $color3;
+	color: $color3;
+	box-shadow: none;
+}
+
+.singlepearl .btn {
+	color: #fff;
+	background: #d2174e;
+	padding: 3px 0;
+	:hover {
+		background: darken( #d2174e, 10%) !important;
+		border: 1px solid red;
+	}
+}
+
+.singlepearle .btn:hover {
+	border: 1px solid blue;
+}
+
+
+.backicon {
+    margin: 0 0 1rem 0;
+}
+
+.icon--back{
+	fill: $color2;
+	width: 30px;
+	height: 30px;
+	:hover {
+		fill: darken( $color2, 10% );
+	}
+}
+
+.icon--accompanyingtext {
+	top: -1rem;
+	left: 1rem;
+	position: relative;
+	/* font-weight: 500; */
+	color: #656565;
+	font-style: italic;
+	font-size: 1.4rem;
+}
+
+.icons--social {
+	float: left;	
+}
+
+.icons {
+	.icon {
+	    width: 32px;
+	    height: 31px;
+	    margin-left: 1px;
+	    float: left;
+	    position: relative;
+	}
+	.icon--social {
+		background-image: url(/img/social-icons.gif);
+	    background-repeat: no-repeat;
+	    opacity: 1;
+	}
+	.linkedin {
+		background-position: 0 0;
+	}
+	.twitter {
+		background-position: -35px 0;
+	}
+	.facebook {
+		background-position: -70px 0;
+	}
+	.email {
+		background-position: -104px 0;
+	}
+
+	.aanmelden {
+		background-position: -139px 0;
+	}
+}
+

@@ -1,0 +1,30 @@
+img {
+	max-width: 100%;
+}
+
+.inline_social_icon {
+	display: inline-block;
+	height: 1.2rem;
+	width: auto !important;
+}
+
+.entree {
+	.overview--video {
+	}
+	.overview--video row {
+		margin: 0 !important;
+	}
+}
+.video-tabs-bottom {
+	margin: 0;
+	padding: 0;
+}
+
+video, .video-js {
+	width: 100%;
+}
+
+.vjs-control-bar {
+	// display: none !important;
+}
+

@@ -1,0 +1,30 @@
+body {
+	background-color: #fff;
+}
+
+.pearls .introtext {
+	display: none;
+}
+
+h1.programmalijn {
+	// padding: 0 0 2rem 0;
+}
+
+.backheader {
+	margin: 0 0 1rem 0;
+	a {
+		background: #d1174d;
+		padding: .5rem 1rem;
+		color: white;
+		position: absolute;
+		z-index: 100;
+		top: 2rem;
+		text-decoration: none;
+		border: 1px solid white;
+	}
+}
+.backimg {
+	display: inline-block;
+	width: 6rem;
+	height: auto;
+}
