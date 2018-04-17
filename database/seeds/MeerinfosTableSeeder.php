@@ -193,7 +193,7 @@ class MeerinfosTableSeeder extends Seeder
             [
                 'id' => '23',
                 'title' => 'Instroommogelijkheden', 
-                'alt' => 'Instroommogelijkheden',
+                'alt' => 'Instroommogelijkheden ',
                 'adress' => 'https://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit/werken-in-het-voortgezet-onderwijs/instroommogelijkheden',
                 'ismail' => '0',
                 'pearl_id' => '17'
