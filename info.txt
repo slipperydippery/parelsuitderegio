@@ -1,1 +1,1 @@
-scp ~/Videos/parel7.mp4 forge@95.85.55.99:~/default/public/video/parel7.mp4
+scp ~/Videos/parel8.mp4 forge@95.85.55.99:~/default/public/video/parel8.mp4
