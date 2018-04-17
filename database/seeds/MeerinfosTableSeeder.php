@@ -184,17 +184,17 @@ class MeerinfosTableSeeder extends Seeder
             ],
             [
                 'id' => '22',
-                'title' => 'sociale veiligheid', 
-                'alt' => 'sociale veiligheid',
-                'adress' => 'https://www.voion.nl/programmalijnen/veilig-gezond-en-vitaal-werken/sociale-veiligheid/sociale-veiligheid',
+                'title' => 'Trainees in onderwijs', 
+                'alt' => 'Trainees in onderwijs',
+                'adress' => 'https://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit/werken-in-het-voortgezet-onderwijs/trainees-in-onderwijs',
                 'ismail' => '0',
                 'pearl_id' => '17'
             ],
             [
                 'id' => '23',
-                'title' => 'fysieke veiligheid', 
-                'alt' => 'fysieke veiligheid',
-                'adress' => 'https://www.voion.nl/programmalijnen/veilig-gezond-en-vitaal-werken/fysieke-veiligheid/veilig-werken ',
+                'title' => 'Instroommogelijkheden', 
+                'alt' => 'Instroommogelijkheden ',
+                'adress' => 'https://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit/werken-in-het-voortgezet-onderwijs/instroommogelijkheden',
                 'ismail' => '0',
                 'pearl_id' => '17'
             ],
