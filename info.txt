@@ -1,1 +1,1 @@
-scp ~/Videos/parel18.mp4 forge@95.85.55.99::~/parelsuitderegio.nl/public/video/parel18.mp4
+scp ~/Videos/parel18.mp4 forge@95.85.55.99:~/parelsuitderegio.nl/public/video/parel18.mp
