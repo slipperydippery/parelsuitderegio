@@ -198,6 +198,22 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '0',
                 'pearl_id' => '17'
             ],
+            [
+                'id' => '24',
+                'title' => 'Professionele leergemeenschappen', 
+                'alt' => 'Professionele leergemeenschappen ',
+                'adress' => 'https://www.voion.nl/programmalijnen/loopbaan-en-professionalisering/professionaliseren-in-school/professionaliseren-in-school/professionele-leergemeenschappen',
+                'ismail' => '0',
+                'pearl_id' => '18'
+            ],
+            [
+                'id' => '25',
+                'title' => 'Samen leren en opleiden', 
+                'alt' => 'Samen leren en opleiden ',
+                'adress' => 'http://www.script-onderzoek.nl/script-onderzoek/a1248_Samen-opleiden-en-leren-in-de-leerateliers',
+                'ismail' => '0',
+                'pearl_id' => '18'
+            ],
         ]; 
         DB::table('meerinfos')->insert($meerinfos);
     }

@@ -119,6 +119,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Trainees voor de klas',
                 'description' => 'In 2008 was de gemiddelde leeftijd van het lerarenkorps van het Joke Smit College 55 jaar. Daarom startte de school met het project Student wordt docent en met traineeships om het team te verjongen. De gemiddelde leeftijd op het Joke Smit College is inmiddels gedaald naar 35 jaar. Maar naast de verjonging hebben de activiteiten ook een positief effect op de dynamiek in de school: het Joke Smit College is een lerende organisatie geworden waarin medewerkers zich blijven ontwikkelen.',
             ],
+            [
+                'id' => '18',
+                'title' => 'Leeratelier',
+                'subtitle' => 'Leeratelier: samen leren over leren',
+                'description' => 'Hoe leert een leerling en hoe kan het onderwijs daar het beste op aansluiten? Deze vraag staat centraal in het leeratelier dat Ons Middelbaar Onderwijs oprichtte samen met andere onderwijsorganisaties. Het leeratelier is een professionele leergemeenschap waarbij over de muren van het onderwijs heen gekeken wordt.',
+            ],
         ];
 
           
