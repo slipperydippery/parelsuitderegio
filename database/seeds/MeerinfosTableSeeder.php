@@ -214,6 +214,30 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '0',
                 'pearl_id' => '18'
             ],
+            [
+                'id' => '26',
+                'title' => 'Duurzame inzetbaarheid', 
+                'alt' => 'Duurzame inzetbaarheid ',
+                'adress' => 'https://www.voion.nl/programmalijnen/veilig-gezond-en-vitaal-werken/duurzame-inzetbaarheid/duurzame-inzetbaarheid',
+                'ismail' => '0',
+                'pearl_id' => '19'
+            ],
+            [
+                'id' => '27',
+                'title' => 'APG werkgeversdiensten', 
+                'alt' => 'APG werkgeversdiensten ',
+                'adress' => 'https://www.apg.nl/generatiepact',
+                'ismail' => '0',
+                'pearl_id' => '19'
+            ],
+            [
+                'id' => '28',
+                'title' => 'ProAmbt', 
+                'alt' => 'ProAmbt ',
+                'adress' => 'https://www.proambt.nl/',
+                'ismail' => '0',
+                'pearl_id' => '19'
+            ],
         ]; 
         DB::table('meerinfos')->insert($meerinfos);
     }

@@ -125,6 +125,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Leeratelier: samen leren over leren',
                 'description' => 'Hoe leert een leerling en hoe kan het onderwijs daar het beste op aansluiten? Deze vraag staat centraal in het leeratelier dat Ons Middelbaar Onderwijs oprichtte samen met andere onderwijsorganisaties. Het leeratelier is een professionele leergemeenschap waarbij over de muren van het onderwijs heen gekeken wordt.',
             ],
+            [
+                'id' => '19',
+                'title' => 'Generatiepact',
+                'subtitle' => 'Duurzaam inzetbaar met generatiepact',
+                'description' => 'Ruim 25 procent van de medewerkers op het Da Capo College is ouder dan 57 jaar. En dat brengt verschillende problemen met zich mee. Het College sloot een generatiepact op maat met 9 docenten van rond de 60 jaar. Deze medewerkers gaan minder werken voor iets minder salaris, maar wel met behoud van 100 procent pensioen. Hierdoor hebben ze een betere balans tussen belasting en hersteltijd en kunnen ze met plezier hun pensioen halen. Het ziekteverzuim is teruggedrongen en de school heeft enkele jonge docenten kunnen aannemen.',
+            ],
         ];
 
           
