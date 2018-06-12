@@ -131,6 +131,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Duurzaam inzetbaar met generatiepact',
                 'description' => 'Ruim 25 procent van de medewerkers op het Da Capo College is ouder dan 57 jaar. En dat brengt verschillende problemen met zich mee. Het College sloot een generatiepact op maat met 9 docenten van rond de 60 jaar. Deze medewerkers gaan minder werken voor iets minder salaris, maar wel met behoud van 100 procent pensioen. Hierdoor hebben ze een betere balans tussen belasting en hersteltijd en kunnen ze met plezier hun pensioen halen. Het ziekteverzuim is teruggedrongen en de school heeft enkele jonge docenten kunnen aannemen.',
             ],
+            [
+                'id' => '20',
+                'title' => 'Inclusief werkgeverschap',
+                'subtitle' => 'Inclusief werkgeverschap: medewerkers met afstand tot arbeidsmarkt aan het werk op Penta College',
+                'description' => 'Bij het Penta College werken al ruim drie jaar mensen met een afstand tot de arbeidsmarkt. Ze dragen hun steentje bij als hulpconciërge, in de kantine, bij de receptie of bij het verrichten van licht administratief werk.  De medewerkers zijn niet meer weg te denken bij het Penta College. Het geeft de school een brede blik op de samenleving en de medewerkers groeien enorm in hun werk en zelfvertrouwen.',
+            ],
         ];
 
           

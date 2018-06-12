@@ -238,6 +238,14 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '0',
                 'pearl_id' => '19'
             ],
+            [
+                'id' => '29',
+                'title' => 'Participatiewet en banenafspraak', 
+                'alt' => 'Participatiewet en banenafspraak ',
+                'adress' => 'https://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit/verminderen-van-uitstroom/sociale-zekerheid/afstand-tot-de-arbeidsmarkt',
+                'ismail' => '0',
+                'pearl_id' => '20'
+            ],
         ]; 
         DB::table('meerinfos')->insert($meerinfos);
     }
