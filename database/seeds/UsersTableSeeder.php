@@ -18,13 +18,13 @@ class UsersTableSeeder extends Seeder
                 'id' => '1',
                 'name' => 'Maarten de Jager', 
                 'email' => 'maartendejager@gmail.com',
-                'password' => 'password1',
+                'password' => Hash::make('password1'),
             ],
             [
                 'id' => '2',
                 'name' => 'admin', 
                 'email' => 'info@embav.nl',
-                'password' => '2l@g1n4voion',
+                'password' => Hash::make('2l@g1n4voion'),
             ],
         ];
         DB::table('users')->insert($users);

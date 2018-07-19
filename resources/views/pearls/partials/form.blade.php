@@ -4,10 +4,28 @@
 	{!! Form::text('title', null, ['class' => 'form-control']) !!}
 </div>
 
+<!-- Bijzin Form Input -->
+<div class="form-group">
+	{!! Form::label('subtitle', 'Bijzin:') !!}
+	{!! Form::text('subtitle', null, ['class' => 'form-control']) !!}
+</div>
+
 <!-- Beschrijving Form Input -->
 <div class="form-group">
 	{!! Form::label('description', 'Beschrijving:') !!}
 	{!! Form::textarea('description', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Afbeelding Form Input -->
+<div class="form-group">
+	{!! Form::label('thumbnail', 'Afbeelding (.png):') !!}
+	{!! Form::file('thumbnail', ['accept' => '.png']) !!}
+</div>
+
+<!-- Film Form Input -->
+<div class="form-group">
+	{!! Form::label('video', 'Film (.mp4):') !!}
+	{!! Form::file('video', ['accept' => '.mp4']) !!}
 </div>
 
 @foreach($categories as $category)

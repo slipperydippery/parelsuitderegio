@@ -6,6 +6,15 @@
     $autoplay = isset($_GET['autoplay']) ? $_GET['autoplay'] : '';
 @endphp
 
+
+@if(Auth::user())
+    <a href=" {{ route('pearls.edit', $pearl) }} " class="btn editbutton"> Bewerk basis informatie</a>
+    <a href=" {{ route('pearls.editpdfs', $pearl) }} " class="btn editbutton"> Bewerk pdfs</a>
+    <a href=" {{ route('pearls.editmeerinfos', $pearl) }} " class="btn "> Bewerk "meer informatie" </a>
+    <a href=" {{ route('pearls.editlinks', $pearl) }} " class="btn"> Bewerk de gerelateerde parels </a>
+@endif
+
+
 <div id="parelsuitderegio" class="clearfix">
    <div class="row pearls singlepearl clearfix" name="singlepearl">
         <div class="col-lg-4 col-xs-12">
@@ -49,6 +58,9 @@
                             <p>{{{ $paragraph }}}</p>
                         @endforeach
                     </span>
+            @if(Auth::user())
+                <a href=" {{ route('pearls.edit', $pearl) }} " class="btn editbutton"> Bewerk deze parel</a>
+            @endif
                         <br>
                 </div>
             </div> 
@@ -61,6 +73,9 @@
                     </div>
                 @endforeach
             </div>
+            @if(Auth::user())
+                <a href=" {{ route('pearls.editpdfs', $pearl) }} " class="btn editbutton"> Bewerk pdfs</a>
+            @endif
         </div>       
     </div>
     <div class="row pearls row--social clearfix">
@@ -80,17 +95,25 @@
                         <a href="#">Meer info</a>
                         @foreach($pearl->meerinfos as $meerinfo)
                             @if($meerinfo->ismail == 0)
-                                <li> <a href="{{ $meerinfo->adress }}" target="_blank"> {{ $meerinfo->title }} </a></li>
+                                <li> <a href=" {{ $meerinfo->adress }} " target="_blank"> {{ $meerinfo->title }} </a></li>
                             @else
                                 <li> <a href="mailto:{{ $meerinfo->adress }}" target="_blank"> {{ $meerinfo->title }} </a></li>
                             @endif
                         @endforeach
                     </ul>
                 @endif
+                @if(Auth::user())
+                    <ul class="meerinfo__edit">
+                        <a href=" {{ route('pearls.editmeerinfos', $pearl) }} "> Bewerk "meer informatie" </a>
+                    </ul>
+                @endif
         </div>   
     </div>
     <div class="row">
         <pearllist pearlid="{{ $pearl->id }}"></pearllist>
+        @if(Auth::user())
+            <a href=" {{ route('pearls.editlinks', $pearl) }} " class="btn"> Bewerk de gerelateerde parels </a>
+        @endif
     </div>
 
 </div>

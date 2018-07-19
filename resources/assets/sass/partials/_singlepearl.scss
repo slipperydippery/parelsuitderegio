@@ -37,6 +37,25 @@
     margin: 3rem 0 0 !important;
 }
 
+ul.meerinfo__edit {
+    display: inline-block;
+    background: #DB644C;
+    color: white;
+    margin: 0 1px;
+    width: 20rem;
+    text-align: center;
+    z-index: 1;
+    vertical-align: top;
+    padding: 0.6rem;
+    a {
+    	color: white
+    }
+    &:hover {
+    	background: darken(#DB644C, 20%);
+    	color: white;
+    }
+}
+
 ul.meerinfo {
 	display: inline-block;
 	background: #677CB3;

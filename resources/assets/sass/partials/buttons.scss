@@ -61,14 +61,22 @@
 	color: #fff;
 	background: #d2174e;
 	padding: 3px 0;
-	:hover {
-		background: darken( #d2174e, 10%) !important;
-		border: 1px solid red;
+	&:hover {
+		background: darken( #d2174e, 10%);
 	}
 }
-
-.singlepearle .btn:hover {
-	border: 1px solid blue;
+.singlepearl .btn.editbutton {
+	float: right;
+	width: auto;
+	background: #DB644C;
+	color: white;
+	padding: 6px 12px;
+	border: 0;
+	&:hover {
+		background: darken(#DB644C, 20%);
+		color: white;
+		border: none;
+	}
 }
 
 

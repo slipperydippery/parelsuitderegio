@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Pdf;
 use Session;
 use App\Pearl;
 use JavaScript;
 use App\Category;
+use App\Meerinfo;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
 
 class PearlsController extends Controller
@@ -35,7 +38,8 @@ class PearlsController extends Controller
      */
     public function create()
     {
-        return view ('pearls.create');
+        $categories = Category::all();
+        return view ('pearls.create', compact('categories'));
     }
 
     /**
@@ -46,7 +50,34 @@ class PearlsController extends Controller
      */
     public function store(Request $request)
     {
-        return $request->all();
+        // return $request->all();
+        // validation
+        
+        $pearl = Pearl::create([
+            'title' => $request->title,
+            'subtitle' => $request->subtitle,
+            'description' => $request->description
+        ]);
+
+        foreach($request->categories as $category) {
+            $category = Category::find($category);
+            $pearl->categories()->save($category);
+        }
+
+        if(Input::hasFile('thumbnail')){
+            $imagename = 'parel' . $pearl->id . '.png';
+
+            $file = Input::file('thumbnail');
+            $file->move(public_path() . '/video/poster', $imagename);
+        }
+
+        if(Input::hasFile('video')){
+            $videoname = 'parel' . $pearl->id . '.mp4';
+
+            $file = Input::file('video');
+            $file->move(public_path() . '/video', $videoname);
+        }
+        return redirect()->route('pearls.show', $pearl);
     }
 
     /**
@@ -95,7 +126,26 @@ class PearlsController extends Controller
                 $pearl->categories()->save($category);
             }
         }
+        if(Input::hasFile('thumbnail')){
+            $imagename = 'parel' . $pearl->id . '.png';
+
+            $file = Input::file('thumbnail');
+            $file->move(public_path() . '/video/poster', $imagename);
+        }
+
+        if(Input::hasFile('video')){
+            $videoname = 'parel' . $pearl->id . '.mp4';
+
+            $file = Input::file('video');
+            $file->move(public_path() . '/video', $videoname);
+        }
         return back();
+    }
+
+    public function editlinks(Pearl $pearl)
+    {
+        $unrelated = Pearl::all()->diff($pearl->links)->except($pearl->id)->pluck('title', 'id');
+        return view('pearls.editlinks', compact('pearl', 'unrelated'));
     }
 
     public function newlink(Request $request)
@@ -112,6 +162,65 @@ class PearlsController extends Controller
     {
         $pearl->links()->detach($link);
         $link->links()->detach($pearl);
+        return back();
+    }
+
+    public function editmeerinfos(Pearl $pearl)
+    {
+        return view('pearls.editmeerinfos', compact('pearl'));
+    }
+
+    public function newmeerinfo(Request $request)
+    {
+        $ismail = false;
+        if($request->ismail) {
+            $ismail = true;
+        }
+        $pearl = Pearl::findOrFail($request->pearl);
+        $meerinfo = Meerinfo::create([
+                'title' => $request->meerinfotitle, 
+                'alt' => $request->meerinfotitle,
+                'adress' => $request->meerinfolink,
+                'ismail' => $ismail,
+                'pearl_id' => $pearl->id
+        ]);
+        $pearl->meerinfos()->save($meerinfo);
+        return back();
+    }
+
+    public function removemeerinfo(Pearl $pearl, Meerinfo $meerinfo, Request $request)
+    {
+        $meerinfo->delete();
+        return back();
+    }
+
+    public function editpdfs(Pearl $pearl)
+    {
+        return view('pearls.editpdfs', compact('pearl'));
+    }
+
+    public function newpdf(Request $request)
+    {
+        $pearl = Pearl::findOrFail($request->pearl);
+        if(Input::hasFile('pdf')){
+            $pdfname = preg_replace('/\s+/', '', $request->pdftitle) . preg_replace('/\s+/', '', $pearl->title) . '.pdf';
+            $file = Input::file('pdf');
+            $file->move(public_path() . '/pdf', $pdfname);
+            $pdf = Pdf::create([
+                'title' => $request->pdftitle,
+                'description' => $request->pdftitle,
+                'adress' => $pdfname,
+            ]);
+            $pearl->pdfs()->save($pdf);
+        }
+
+        return back();
+        
+    }
+
+    public function removepdf(Pearl $pearl, Pdf $pdf, Request $request)
+    {
+        $pdf->delete();
         return back();
     }
 

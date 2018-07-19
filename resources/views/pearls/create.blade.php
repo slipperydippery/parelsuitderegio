@@ -2,7 +2,7 @@
 
 @section('content')
     <h1>Create a pearl</h1>
-    {!! Form::open(['route' => 'pearls.store']) !!}
+    {!! Form::open(['route' => 'pearls.store', 'files' => true]) !!}
     	@include('pearls.partials.form', ['submittext' => 'Creeer nieuwe parel'])
     {!! Form::close() !!}
 
