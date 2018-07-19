@@ -23,8 +23,11 @@
             {!! Form::hidden('pearl', $pearl->id, null) !!}
 
             <div class="form-group">
-                {!! Form::label('pdftitle', 'Type PDF:') !!}
-                {!! Form::text('pdftitle', null, ['class' => 'form-control', 'placeholder' => 'Parelbeschrijving, Factsheet, Tips & Tricks, of Stappenplan']) !!}
+                {!! Form::label('pdftitle', 'Type PDF:') !!} <br>
+                <input checked="checked" name="pdftitle" type="radio" value="Parelbeschrijving" id="Parelbeschrijving"> <label for="Parelbeschrijving">Parelbeschrijving</label> <br>
+                <input checked="checked" name="pdftitle" type="radio" value="Factsheet" id="Factsheet"> <label for="Factsheet">Factsheet</label> <br>
+                <input checked="checked" name="pdftitle" type="radio" value="Tips & Tricks" id="Tips & Tricks "> <label for="Tips & Tricks ">Tips & Tricks  </label> <br>
+                <input checked="checked" name="pdftitle" type="radio" value="Stappenplan" id="Stappenplan"> <label for="Stappenplan">Stappenplan</label> <br>
             </div>
 
             <!-- PDF Form Input -->

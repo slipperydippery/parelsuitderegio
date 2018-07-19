@@ -58,7 +58,7 @@
                             <p>{{{ $paragraph }}}</p>
                         @endforeach
                     </span>
-            @if(Auth::user())
+            @if(false)
                 <a href=" {{ route('pearls.edit', $pearl) }} " class="btn editbutton"> Bewerk deze parel</a>
             @endif
                         <br>
@@ -73,7 +73,7 @@
                     </div>
                 @endforeach
             </div>
-            @if(Auth::user())
+            @if(false)
                 <a href=" {{ route('pearls.editpdfs', $pearl) }} " class="btn editbutton"> Bewerk pdfs</a>
             @endif
         </div>       
@@ -102,7 +102,7 @@
                         @endforeach
                     </ul>
                 @endif
-                @if(Auth::user())
+                @if(false)
                     <ul class="meerinfo__edit">
                         <a href=" {{ route('pearls.editmeerinfos', $pearl) }} "> Bewerk "meer informatie" </a>
                     </ul>
@@ -111,7 +111,7 @@
     </div>
     <div class="row">
         <pearllist pearlid="{{ $pearl->id }}"></pearllist>
-        @if(Auth::user())
+        @if(false)
             <a href=" {{ route('pearls.editlinks', $pearl) }} " class="btn"> Bewerk de gerelateerde parels </a>
         @endif
     </div>
