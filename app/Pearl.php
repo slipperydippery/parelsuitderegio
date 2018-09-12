@@ -33,4 +33,9 @@ class Pearl extends Model
     {
         return $this->hasMany('App\Meerinfo');
     }
+
+    public function themes()
+    {
+        return $this->belongsToMany('App\Theme');
+    }
 }

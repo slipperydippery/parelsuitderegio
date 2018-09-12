@@ -20,3 +20,5 @@ Route::get('/user', function (Request $request) {
 Route::get('/pearl', 'ApiPearlsController@index');
 
 Route::get('/category', 'ApiCategoriesController@index');
+
+Route::get('/theme', 'ApiThemesController@index');

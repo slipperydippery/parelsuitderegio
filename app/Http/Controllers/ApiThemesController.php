@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Pearl;
+use App\Theme;
 use Illuminate\Http\Request;
 
-class ApiPearlsController extends Controller
+class ApiThemesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class ApiPearlsController extends Controller
      */
     public function index()
     {
-        return Pearl::with('categories', 'themes')->with('video')->with('links')->get();
+        return Theme::get();
     }
 
     /**
