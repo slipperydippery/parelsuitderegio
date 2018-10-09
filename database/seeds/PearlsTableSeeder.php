@@ -137,6 +137,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Inclusief werkgeverschap: medewerkers met afstand tot arbeidsmarkt aan het werk op Penta College',
                 'description' => 'Bij het Penta College werken al ruim drie jaar mensen met een afstand tot de arbeidsmarkt. Ze dragen hun steentje bij als hulpconciërge, in de kantine, bij de receptie of bij het verrichten van licht administratief werk.  De medewerkers zijn niet meer weg te denken bij het Penta College. Het geeft de school een brede blik op de samenleving en de medewerkers groeien enorm in hun werk en zelfvertrouwen.',
             ],
+            [
+                'id' => '21',
+                'title' => 'Huisacademie van Quadraam',
+                'subtitle' => 'Qurius, de huisacademie van Quadraam',
+                'description' => 'Het bestuur van Quadraam, heeft permanente professionalisering hoog op de agenda staan. Omdat de organisatie zelf veel expertise in huis heeft en om de scholen en medewerkers met elkaar te verbinden, zette Quadraam een eigen huisacademie op: Qurius. Het aanbod wordt afgestemd op de behoeftes van de medewerkers en de organisatie. In principe worden alle trainingen door eigen medewerkers gegeven. Naast up-to-date kennis zorgt Qurius voor meer verbinding tussen de verschillende Quadraamscholen en tussen de medewerkers.',
+            ],
         ];
 
           
