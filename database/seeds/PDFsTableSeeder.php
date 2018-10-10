@@ -342,19 +342,19 @@ class PDFsTableSeeder extends Seeder
                 'id' => '55',
                 'title' => 'Parelbeschrijving', 
                 'description' => '',
-                'adress' => 'ParelbeschrijvingQurius.pdf',
+                'adress' => 'ParelbeschrijvingQuriuz.pdf',
             ],
             [
                 'id' => '56',
                 'title' => 'Factsheet', 
                 'description' => '',
-                'adress' => 'FactsheetQurius.pdf',
+                'adress' => 'FactsheetQuriuz.pdf',
             ],
             [
                 'id' => '57',
                 'title' => 'Tips & Tricks', 
                 'description' => '',
-                'adress' => 'TipsAndTricksQurius.pdf',
+                'adress' => 'TipsAndTricksQuriuz.pdf',
             ],
              
         ];
