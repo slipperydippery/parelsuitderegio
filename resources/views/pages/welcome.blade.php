@@ -35,7 +35,7 @@
                                 <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
                             </p>
                         </video>
-                        <div class="videooverlay" id="videooverlay">
+                        <div class="videooverlay" id="videooverlay" style="overflow: hidden">
                             <div class="videooverlay--content">
                                 <a href="{{ URL::to('pearls/1')}}" class="csspearl--link csspearl csspearl-1"> </a>
                                 <span class="csspearl--description">Tweedegraads PLUS</span>
@@ -61,7 +61,7 @@
                                 <span class="csspearl--description">Zin in Lesgeven</span>
                             </div>
                         </div>
-                        <pearllistfilter></pearllistfilter>
+                        
                         <div class="video_sub_text">Gedurende dit jaar vullen we de website doorlopend aan met nieuwe parels. Wilt u op de hoogte blijven van deze nieuwe verhalen? Volg ons dan via <a href="https://twitter.com/voion_aenofonds">Twitter <img src="img/twitter.png" alt="twitter" class="inline_social_icon"></a> of <a href="https://www.linkedin.com/company/3082156">Linkedin <img src="img/linkedin.png" alt="linkedin" class="inline_social_icon"></a> of abonneer u op onze <a href="http://www.voion.nl/aanmelden">gratis nieuwsbrief</a>. </div>
                     </div>
                 </div>

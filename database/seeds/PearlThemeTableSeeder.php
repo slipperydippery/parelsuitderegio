@@ -63,6 +63,10 @@ class PearlThemeTableSeeder extends Seeder
                 'theme_id' => '1',
             ],
             [
+                'pearl_id' => '12',
+                'theme_id' => '4',
+            ],
+            [
                 'pearl_id' => '13',
                 'theme_id' => '2',
             ],
@@ -91,12 +95,16 @@ class PearlThemeTableSeeder extends Seeder
                 'theme_id' => '1',
             ],
             [
+                'pearl_id' => '19',
+                'theme_id' => '3',
+            ],
+            [
                 'pearl_id' => '20',
                 'theme_id' => '1',
             ],
             [
                 'pearl_id' => '21',
-                'theme_id' => '3',
+                'theme_id' => '4',
             ],
         ];
  
