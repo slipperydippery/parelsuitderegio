@@ -139,7 +139,7 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
             ],
             [
                 'id' => '21',
-                'title' => '--',
+                'title' => 'Quriuz',
                 'subtitle' => 'Onder constructie',
                 'description' => 'Deze parel is onder constructie',
             ],
