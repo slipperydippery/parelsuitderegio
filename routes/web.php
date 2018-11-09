@@ -18,6 +18,7 @@ Route::get('/test', function () {
 	return view('test');
 });
 
+Route::get('digitaaljaarboek', ['as' => 'digitaaljaarboek', 'uses' => 'PagesController@digitaaljaarboek']);
 Route::get('factsheet', ['as' => 'factsheet', 'uses' => 'PagesController@factsheet']);
 Route::resource('pearls', 'PearlsController');
 // Route::post('/pearls/removelinlink', ['as' => 'pearls.removelink', 'uses' => 'PearlsController@removelink']);

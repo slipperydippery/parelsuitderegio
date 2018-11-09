@@ -26,4 +26,9 @@ class PagesController extends Controller
 
   	    return view('welcome');
   }
+
+  public function digitaaljaarboek()
+  {
+    return view('pages.digitaaljaarboek');
+  }
 }
