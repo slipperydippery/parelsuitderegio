@@ -73,7 +73,7 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
             ],
             [
                 'id' => '10',
-                'title' => 'Identiteit vertalen',
+                'title' => 'Waarderingsgesprekken',
                 'subtitle' => 'Van papier naar werkvloer',
                 'description' => 'Greijdanus is een schoolbestuur met een gereformeerde identiteit. Via de gesprekkencyclus tracht Greijdanus haar identiteit, kernwaarden en doelen te vertalen naar de werkvloer. Daarbij is leren en ontwikkelen door zelfevaluatie op basis van feedback het uitgangspunt. Nieuwsgierig naar de aanpak van Greijdanus? Bekijk de animatie of een van de documenten op deze pagina.',
             ],
@@ -133,8 +133,8 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
             ],
             [
                 'id' => '20',
-                'title' => 'Inclusief werkgeverschap',
-                'subtitle' => 'Inclusief werkgeverschap: medewerkers met afstand tot arbeidsmarkt aan het werk op Penta College',
+                'title' => 'Iedereen doet mee',
+                'subtitle' => 'Iedereen doet mee: medewerkers met afstand tot arbeidsmarkt aan het werk op Penta College',
                 'description' => 'Bij het Penta College werken al ruim drie jaar mensen met een afstand tot de arbeidsmarkt. Ze dragen hun steentje bij als hulpconciërge, in de kantine, bij de receptie of bij het verrichten van licht administratief werk.  De medewerkers zijn niet meer weg te denken bij het Penta College. Het geeft de school een brede blik op de samenleving en de medewerkers groeien enorm in hun werk en zelfvertrouwen.',
             ],
             [
