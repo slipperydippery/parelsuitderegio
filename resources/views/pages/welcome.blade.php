@@ -64,7 +64,7 @@
                         
                         <div class="video_sub_text">
                             Waar zijn andere scholen in het voortgezet onderwijs mee bezig? Welke onderwerpen houden hen bezig? Laat u hier inspireren door hun verhalen. Gedurende dit jaar vullen we de website doorlopend aan met nieuwe parels. Wilt u op de hoogte blijven van deze nieuwe verhalen? Volg ons dan via <a href="https://twitter.com/voion_aenofonds">Twitter <img src="img/twitter.png" alt="twitter" class="inline_social_icon"></a> of <a href="https://www.linkedin.com/company/3082156">Linkedin <img src="img/linkedin.png" alt="linkedin" class="inline_social_icon"></a> of abonneer u op onze <a href="http://www.voion.nl/aanmelden">gratis nieuwsbrief</a>.
-                            De parels die gepubliceerd zijn tot en met november 2018, zijn ook gebundeld in een <a href="http://www.embav.nl/admin/digitaaljaarboek6" target="_blank">jaarboek</a>.
+                            De parels die gepubliceerd zijn tot en met november 2018, zijn ook gebundeld in een <a href=" {{ route('digitaaljaarboek') }} " target="_blank">jaarboek</a>.
                         </div>
                     </div>
                 </div>
