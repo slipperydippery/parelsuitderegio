@@ -121,5 +121,5 @@
 @stop
 
 @section('additional_scripts')
-    <script src="http://vjs.zencdn.net/5.17.0/video.js"></script>
+    <script src="https://vjs.zencdn.net/5.17.0/video.js"></script>
 @stop
