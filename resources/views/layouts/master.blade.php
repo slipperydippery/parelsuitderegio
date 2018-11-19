@@ -8,6 +8,31 @@
         <link rel="stylesheet" href="/css/app.css">
         <link href="https://vjs.zencdn.net/5.17.0/video-js.css" rel="stylesheet">
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
+
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+        <script>
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#7f7f7f",
+              "text": "#ffffff"
+            },
+            "button": {
+              "background": "#9f183e",
+              "text": "#ffffff"
+            }
+          },
+          "content": {
+            "message": "Voion gebruikt cookies om het gedrag van bezoekers te analyseren. Als u onze website bezoekt, gaan wij er automatisch vanuit dat u akkoord gaat met deze cookies.",
+            "dismiss": "Akkoord",
+            "link": "Bekijk onze cookie-policy",
+            "href": "https://www.voion.nl/juridisch/cookiepolicy"
+          }
+        })});
+        </script>
+        
     </head>
     <script>
         window.Laravel = { csrfToken: '{{ csrf_token() }}' };
