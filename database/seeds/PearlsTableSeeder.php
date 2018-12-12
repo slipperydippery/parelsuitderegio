@@ -143,6 +143,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Quriuz, de huisacademie van Quadraam',
                 'description' => 'Het bestuur van Quadraam, heeft permanente professionalisering hoog op de agenda staan. Omdat de organisatie zelf veel expertise in huis heeft en om de scholen en medewerkers met elkaar te verbinden, zette Quadraam een eigen huisacademie op: Quriuz. Het aanbod wordt afgestemd op de behoeftes van de medewerkers en de organisatie. In principe worden alle trainingen door eigen medewerkers gegeven. Naast up-to-date kennis zorgt Quriuz voor meer verbinding tussen de verschillende Quadraamscholen en tussen de medewerkers.',
             ],
+            [
+                'id' => '22',
+                'title' => 'Statushouders als bèta-docent',
+                'subtitle' => 'Hoogopgeleide vluchtelingen als bèta-docent',
+                'description' => 'De Montessori Scholengemeenschap Amsterdam stoomt samen met de gemeente Amsterdam statushouders klaar voor bèta-docent. Zij zetten samen een traject op om het lerarentekort op te vangen en tegelijk het hoge potentieel van deze vluchtelingen te benutten. Dat levert een win-win situatie voor iedereen op.',
+            ],
         ];
 
           
