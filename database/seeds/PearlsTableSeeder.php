@@ -149,6 +149,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Hoogopgeleide vluchtelingen als bèta-docent',
                 'description' => 'De Montessori Scholengemeenschap Amsterdam stoomt samen met de gemeente Amsterdam statushouders klaar voor bèta-docent. Zij zetten samen een traject op om het lerarentekort op te vangen en tegelijk het hoge potentieel van deze vluchtelingen te benutten. Dat levert een win-win situatie voor iedereen op.',
             ],
+            [
+                'id' => '23',
+                'title' => 'Van PAL-student naar leraar',
+                'subtitle' => 'Doorstroom van studenten met bijbaan als PAL naar lerarenopleiding',
+                'description' => 'Via de Pre-U kunnen studenten van het hbo of de universiteit docenten in het middelbaar onderwijs ondersteunen bij hun taken. Een bijbaan als PAL (Persoonlijke Assistent Leraar) is voor studenten een goede manier om kennis te maken met het onderwijs. Als de student enthousiast is, stroomt deze vaak door naar een lerarenopleiding. Het levert dus zowel de student als het voortgezet onderwijs voordelen op.',
+            ],
         ];
 
           

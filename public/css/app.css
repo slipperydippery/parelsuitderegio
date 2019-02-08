@@ -8764,7 +8764,7 @@ ul.meerinfo {
   background: #677CB3;
   color: white;
   margin: 0 1px;
-  width: 20rem;
+  min-width: 20rem;
   text-align: center;
   z-index: 1;
 }
@@ -8772,7 +8772,7 @@ ul.meerinfo {
 ul.meerinfo a {
   display: inline-block;
   line-height: 31px;
-  width: 20rem;
+  min-width: 20rem;
   color: white;
 }
 
@@ -8782,6 +8782,8 @@ ul.meerinfo li {
   z-index: 1;
   transition: all .5s;
   overflow: hidden;
+  white-space: nowrap;
+  padding: 0 2rem;
 }
 
 ul.meerinfo li:hover {

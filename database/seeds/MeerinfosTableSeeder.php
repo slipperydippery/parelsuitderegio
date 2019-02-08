@@ -246,6 +246,14 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '0',
                 'pearl_id' => '20'
             ],
+            [
+                'id' => '30',
+                'title' => 'Nieuwe doelgroepen voor het vo', 
+                'alt' => 'Nieuwe doelgroepen voor het vo ',
+                'adress' => 'https://www.voion.nl/publicaties/nieuwe-doelgroepen-voor-het-leraarschap-in-het-voortgezet-onderwijs',
+                'ismail' => '0',
+                'pearl_id' => '23'
+            ],
         ]; 
         DB::table('meerinfos')->insert($meerinfos);
     }
