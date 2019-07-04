@@ -155,6 +155,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Doorstroom van studenten met bijbaan als PAL naar lerarenopleiding',
                 'description' => 'Via de Pre-U kunnen studenten van het hbo of de universiteit docenten in het middelbaar onderwijs ondersteunen bij hun taken. Een bijbaan als PAL (Persoonlijke Assistent Leraar) is voor studenten een goede manier om kennis te maken met het onderwijs. Als de student enthousiast is, stroomt deze vaak door naar een lerarenopleiding. Het levert dus zowel de student als het voortgezet onderwijs voordelen op.',
             ],
+            [
+                'id' => '24',
+                'title' => 'Samenwerking Opleidingsschool RPO Rijnmond',
+                'subtitle' => 'Opleiding ‘nieuwe stijl’ levert stevigere leraren op',
+                'description' => 'Het samenwerkingsplatform Opleidingsschool RPO Rijnmond leidt al sinds 2008 nieuwe en zittende leraren op. De schoolbesturen en lerarenopleidingen in het platform werken zo hecht samen, dat het de bedoeling is dat in de nabije toekomst alle aspirant-leraren in de regio het traject gaan volgen. Ook zittende leraren en zij-instromers worden door de opleidingsschool begeleid om zo het lerarentekort gezamenlijk aan te pakken.',
+            ],
         ];
 
           

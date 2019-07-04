@@ -114,6 +114,14 @@ class PearlThemeTableSeeder extends Seeder
                 'pearl_id' => '23',
                 'theme_id' => '1',
             ],
+            [
+                'pearl_id' => '24',
+                'theme_id' => '1',
+            ],
+            [
+                'pearl_id' => '24',
+                'theme_id' => '4',
+            ],
         ];
  
         DB::table('pearl_theme')->insert($pearl_theme);
