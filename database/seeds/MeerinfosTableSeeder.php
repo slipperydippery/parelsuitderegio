@@ -262,6 +262,46 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '0',
                 'pearl_id' => '24'
             ],
+            [
+                'id' => '32',
+                'title' => 'Verzuimbeleid', 
+                'alt' => 'Verzuimbeleid',
+                'adress' => 'https://www.voion.nl/programmalijnen/veilig-gezond-en-vitaal-werken/wetgeving-en-beleid/verzuimbeleid',
+                'ismail' => '0',
+                'pearl_id' => '25'
+            ],
+            [
+                'id' => '33',
+                'title' => 'Werkdruk en werkstress', 
+                'alt' => 'Werkdruk en werkstress',
+                'adress' => 'https://www.voion.nl/programmalijnen/veilig-gezond-en-vitaal-werken/werkdruk-en-werkstress1/werkdruk-en-werkstress',
+                'ismail' => '0',
+                'pearl_id' => '25'
+            ],
+            [
+                'id' => '34',
+                'title' => 'Norm Werkstress in de Arbocatalogus-VO', 
+                'alt' => 'Norm Werkstress in de Arbocatalogus-VO',
+                'adress' => 'https://www.arbocatalogus-vo.nl/agressie-onveiligheid-en-werkstress-psa/werkstress/',
+                'ismail' => '0',
+                'pearl_id' => '25'
+            ],
+            [
+                'id' => '35',
+                'title' => 'Strategische personeelsplanning', 
+                'alt' => 'Strategische personeelsplanning',
+                'adress' => 'https://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit/strategische-personeelsplanning/strategische-personeelsplanning',
+                'ismail' => '0',
+                'pearl_id' => '26'
+            ],
+            [
+                'id' => '36',
+                'title' => 'Scenariomodel-VO', 
+                'alt' => 'Scenariomodel-VO',
+                'adress' => 'https://www.scenariomodel-vo.nl/',
+                'ismail' => '0',
+                'pearl_id' => '26'
+            ],
         ]; 
         DB::table('meerinfos')->insert($meerinfos);
     }

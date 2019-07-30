@@ -161,6 +161,22 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Opleiding ‘nieuwe stijl’ levert stevigere leraren op',
                 'description' => 'Het samenwerkingsplatform Opleidingsschool RPO Rijnmond leidt al sinds 2008 nieuwe en zittende leraren op. De schoolbesturen en lerarenopleidingen in het platform werken zo hecht samen, dat het de bedoeling is dat in de nabije toekomst alle aspirant-leraren in de regio het traject gaan volgen. Ook zittende leraren en zij-instromers worden door de opleidingsschool begeleid om zo het lerarentekort gezamenlijk aan te pakken.',
             ],
+            [
+                'id' => '25',
+                'title' => 'Mediation als HR-instrument',
+                'subtitle' => 'OSG Singelland kiest voor mediation bij vastgelopen (arbeids)conflicten',
+                'description' => '“Mediation kan voorkomen dat de situatie onwerkbaar wordt”
+
+                De P&O afdeling van OSG Singelland is op dit moment bezig het ziekteverzuimbeleid om te schrijven naar gezondheidsmanagement. Dat heeft een positievere insteek en gaat uit van preventie: het voorkomen van ziekteverzuim en langdurige uitval. Sinds zo’n twee jaar zet OSG Singelland mediation in bij (arbeids)conflicten. Al meerdere keren met een positief resultaat.',
+            ],
+            [
+                'id' => '26',
+                'title' => 'Dubbele bevoegdheid',
+                'subtitle' => 'Dubbele bevoegdheid als oplossing voor tekortvakken',
+                'description' => 'Positief voor docenten, school én leerlingen
+
+                De Meerwaarde stimuleert aankomende en zittende docenten om een tweede bevoegdheid te halen voor tekortvakken. En dat blijkt heel positief uit te pakken voor de docenten, de school en de leerlingen. Het tekort voor wiskunde is opgelost en docenten worden duurzamer inzetbaar en blijven continu leren en ontwikkelen.',
+            ],
         ];
 
           
