@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Pdf;
 use Session;
 use App\Pearl;
+use App\Theme;
 use JavaScript;
 use App\Category;
 use App\Meerinfo;
@@ -39,7 +40,8 @@ class PearlsController extends Controller
     public function create()
     {
         $categories = Category::all();
-        return view ('pearls.create', compact('categories'));
+        $themes = Theme::get();
+        return view ('pearls.create', compact('categories', 'themes'));
     }
 
     /**
@@ -62,6 +64,11 @@ class PearlsController extends Controller
         foreach($request->categories as $category) {
             $category = Category::find($category);
             $pearl->categories()->save($category);
+        }
+
+        foreach($request->themes as $theme) {
+            $theme = Theme::find($theme);
+            $pearl->themes()->save($theme);
         }
 
         if(Input::hasFile('thumbnail')){
@@ -101,8 +108,9 @@ class PearlsController extends Controller
     public function edit(Pearl $pearl)
     {
         $categories = Category::get();
+        $themes = Theme::get();
         $unrelated = Pearl::all()->diff($pearl->links)->except($pearl->id)->pluck('title', 'id');
-        return view ('pearls.edit', compact('pearl', 'categories', 'unrelated'));
+        return view ('pearls.edit', compact('pearl', 'categories', 'themes', 'unrelated'));
     }
 
     /**
@@ -124,6 +132,13 @@ class PearlsController extends Controller
                 $pearl->categories()->detach($category);
             } else if (! in_array($category->id, $pearl->categories()->pluck('id')->toArray()) && in_array($category->id, $request->categories)){
                 $pearl->categories()->save($category);
+            }
+        }
+        foreach(Theme::all() as $theme){
+            if (in_array($theme->id, $pearl->themes()->pluck('id')->toArray()) && ! in_array($theme->id, $request->themes)) {
+                $pearl->themes()->detach($theme);
+            } else if (! in_array($theme->id, $pearl->themes()->pluck('id')->toArray()) && in_array($theme->id, $request->themes)){
+                $pearl->themes()->save($theme);
             }
         }
         if(Input::hasFile('thumbnail')){

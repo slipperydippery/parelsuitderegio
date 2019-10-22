@@ -28,6 +28,7 @@
 	{!! Form::file('video', ['accept' => '.mp4']) !!}
 </div>
 
+<h3>Categorieen</h3>
 @foreach($categories as $category)
 <?php
 	$hascategory = false;
@@ -42,6 +43,24 @@
 	<div class="form-group">
 		{!! Form::checkbox('categories[]', $category->id, $hascategory ) !!}
 		{!! Form::label('description', $category->title) !!}
+	</div>
+@endforeach
+
+<h3>Thema's</h3>
+@foreach($themes as $theme)
+<?php
+	$hastheme = false;
+	if(isset($pearl)) {
+		foreach($pearl->themes as $pearltheme) {
+			if($pearltheme->id == $theme->id) {
+				$hastheme = true;
+			}
+		}
+	}
+ ?>
+	<div class="form-group">
+		{!! Form::checkbox('themes[]', $theme->id, $hastheme ) !!}
+		{!! Form::label('description', $theme->title) !!}
 	</div>
 @endforeach
 

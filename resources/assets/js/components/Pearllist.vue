@@ -8,7 +8,7 @@
             <pearl
                 v-for="pearl in filteredpearls"
                 :pearl="pearl"
-                v-if="pearlIsInTheme(pearl, 1)"
+                v-if="true || pearlIsInTheme(pearl, 1)"
             >
             </pearl>
             <h4 

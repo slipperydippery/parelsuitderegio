@@ -1,3 +1,6 @@
-scp ~/Videos/parel24.mp4 forge@95.85.55.99:~/parelsuitderegio.nl/public/video/parel24.mp4
+scp ~/Videos/parel26.mp4 forge@95.85.55.99:~/parelsuitderegio.nl/public/video/parel26.mp4
 
-ssh forge@95.85.55.99
+scp forge@95.85.55.99:~/parelsuitderegio.nl/public/video forge@167.71.9.212:~/dev.parelsuitderegio.nl/public/video 
+
+scp -r ~/Folder/. forge@37.139.0.65:~/folder.harsveld.com/
+

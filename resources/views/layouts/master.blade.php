@@ -68,7 +68,10 @@
                         <!-- Right Side Of Navbar -->
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a href=" {{ route('pearls.create') }} "> + Nieuwe Parel; </a>
+                                <a href=" {{ route('pearls.create') }} "> + Nieuwe Parel </a>
+                            </li>
+                            <li>
+                                <a href=" {{ route('pearls.index') }} "> Alle parels </a>
                             </li>
                             <!-- Authentication Links -->
                             @if (Auth::guest())
