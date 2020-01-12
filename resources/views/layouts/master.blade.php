@@ -9,6 +9,11 @@
         <link href="https://vjs.zencdn.net/5.17.0/video-js.css" rel="stylesheet">
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
 
+
+        <meta http-equiv="refresh" content="30;url=https://www.voion.nl/inspiratie" />
+
+
+
         <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
         <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
         <script>
@@ -149,8 +154,30 @@
                 </div>
             </div>
         </footer>
+
+        </div>
         @include ('footer')
+        <div class="backdrop">
+            <div class="container">
+                <div class="card mx-auto bg-info">
+                    <h1>Parels uit de regio is opgeheven</h1>
+                    <p>Parels uit de regio was een samenwerkingsverband tussen Voion en EMB AV. Alle documenten en videos die zijn
+                        gemaakt onder deze langdurige en succesvolle samenwerking zijn nu te vinden op de site van Voion: </p>
+                    <p><a href="https://www.voion.nl/inspiratie">https://www.voion.nl/inspiratie</a></p>
+
+                    <p>U wordt automatisch naar deze nieuwe pagina geleid.</p>
+
+                    <a href="https://www.embaudio.com" class="imglinkcenter">
+                        <img src="img/emblogotrans.png" alt="">
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
         <script src="/js/app.js"></script>
         @yield ('additional_scripts')
+
     </body>
 </html>

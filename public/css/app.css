@@ -8789,6 +8789,42 @@ ul.meerinfo:hover li {
   display: block;
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+}
+
+.backdrop .card {
+  margin: 6rem auto;
+  padding: 2rem 6rem;
+  width: 60vw;
+}
+
+.backdrop .card h1 {
+  font-size: 4rem;
+}
+
+.backdrop .card p {
+  font-size: 1.6rem;
+}
+
+.backdrop .card img {
+  background: white;
+  display: block;
+  margin: 2rem auto;
+}
+
 label {
   font-weight: 800;
   color: #DB644C;

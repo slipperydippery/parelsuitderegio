@@ -20,6 +20,8 @@ Vue.component('singlepearl', require('./components/Singlepearl.vue'));
 Vue.component('pearllist', require('./components/Pearllist.vue'));
 Vue.component('relatedpearls', require('./components/Relatedpearls.vue'));
 Vue.component('pearllistfilter', require('./components/Pearllistfilter.vue'));
+Vue.component('redirectmodal', require('./components/Redirectmodal.vue'));
+
 window.Event = new Vue();
 const app = new Vue({
     el: '#parelsuitderegio',

@@ -9,6 +9,7 @@
             <pearllist :pearlid=0></pearllist>
         </div>
     </div>
+
 @stop
 
 @section('additional_scripts')
